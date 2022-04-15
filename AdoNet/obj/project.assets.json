@@ -454,19 +454,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {}
+    "C:\\Users\\tu7ekdm78\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\OneDrive\\İş masası\\AdoNet\\AdoNet\\AdoNet.csproj",
+      "projectUniqueName": "C:\\Users\\tu7ekdm78\\Desktop\\Cinema-SQl-C-\\AdoNet\\AdoNet.csproj",
       "projectName": "AdoNet",
-      "projectPath": "C:\\Users\\admin\\OneDrive\\İş masası\\AdoNet\\AdoNet\\AdoNet.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\OneDrive\\İş masası\\AdoNet\\AdoNet\\obj\\",
+      "projectPath": "C:\\Users\\tu7ekdm78\\Desktop\\Cinema-SQl-C-\\AdoNet\\AdoNet.csproj",
+      "packagesPath": "C:\\Users\\tu7ekdm78\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tu7ekdm78\\Desktop\\Cinema-SQl-C-\\AdoNet\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tu7ekdm78\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -512,7 +517,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

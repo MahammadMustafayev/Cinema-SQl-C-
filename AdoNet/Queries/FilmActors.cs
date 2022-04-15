@@ -10,9 +10,9 @@ namespace AdoNet.Queries
         {
             Sql.Execute($"INSERT INTO FilmActors VALUES({filmId},{actorId})");
         }
-        public static void Update(int filmId, int id)
+        public static void Update(int filmId,int actorId, int id)
         {
-            Sql.Execute($"UPDATE FilmActors SET {filmId} WHERE Id={id}");
+            Sql.Execute($"UPDATE FilmActors SET {filmId},{actorId} WHERE Id={id}");
         }
         public static void Delete(int id)
         {

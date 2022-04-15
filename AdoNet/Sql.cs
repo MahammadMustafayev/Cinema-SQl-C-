@@ -8,6 +8,7 @@ namespace AdoNet
 {
     class Sql
     {
+        
         private static string connectionString = @"Server=DESKTOP-S22NJ7J\SQLEXPRESS;Database=Cinema;Trusted_Connection=True;";
         public static void Select(string query)
         {

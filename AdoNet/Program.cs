@@ -10,6 +10,7 @@ namespace AdoNet
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.InputEncoding = System.Text.Encoding.UTF8;
             Console.WriteLine("1-Genres\n2-Actors\n3-FilmGenres\n4-FilmActors\n5-Hall\n6-Films\n7-Customer\n8-Sessionss\n9-Tickets\n0-Cıxış");
+            Console.WriteLine("====================================");
             int choise;
             do
             {
@@ -17,17 +18,22 @@ namespace AdoNet
                 switch (choise)
                 {
                     case 1:
+                        Console.WriteLine("===========================");
                         Console.WriteLine("1-Create\n2-Update\n3-Read\n4-Delete\n5-All\n0-Cıxış");
+                        Console.WriteLine("===========================");
                         int choise2;
                         do
                         {
+
                             choise2 = int.Parse(Console.ReadLine());
                             switch (choise2)
                             {
                                 case 1:
+                                    Console.WriteLine("===========================");
                                     Genres.Create(Console.ReadLine());
                                     break;
-                                case 2:Genres.Update(Console.ReadLine(), Convert.ToInt32(Console.ReadLine()));
+                                case 2:
+                                    Genres.Update(Console.ReadLine(), Convert.ToInt32(Console.ReadLine()));
                                     break;
                                 case 3:
                                     Genres.Read(Console.ReadLine());
@@ -41,7 +47,7 @@ namespace AdoNet
                                 case 0:
                                     Console.WriteLine("Good Bye!");
                                     break;
-                                default:
+                                 default:
                                     Console.WriteLine("You entered an incorrect");
                                     break;
                             }
@@ -120,7 +126,7 @@ namespace AdoNet
                                     FilmActors.Create(Convert.ToInt32(Console.ReadLine()), Convert.ToInt32(Console.ReadLine()));
                                     break;
                                 case 2:
-                                    FilmActors.Update(Convert.ToInt32(Console.ReadLine()), Convert.ToInt32(Console.ReadLine()));
+                                    FilmActors.Update(Convert.ToInt32(Console.ReadLine()), Convert.ToInt32(Console.ReadLine()), Convert.ToInt32(Console.ReadLine()));
                                     break;
                                 case 3:
                                     FilmActors.Delete(Convert.ToInt32(Console.ReadLine()));

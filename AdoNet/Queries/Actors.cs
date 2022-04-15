@@ -16,11 +16,11 @@ namespace AdoNet.Queries
         }
         public static void Read(string name)
         {
-            Sql.Execute($"SELECT * FROM Actors WHERE {name} LIKE '%a%'");
+            Sql.Execute($"SELECT * FROM Actors WHERE N'{name}' LIKE '%a%'");
         }
         public static void Update(string name, int id)
         {
-            Sql.Execute($"UPDATE Actors SET {name} WHERE Id={id}");
+            Sql.Execute($"UPDATE Actors SET N'{name}' WHERE Id={id}");
         }
         public static void Select()
         {
